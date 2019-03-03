@@ -1,4 +1,7 @@
 language: c
+env:
+  global:
+    LIBRESSL_GIT: https://github.com/dewyatt/
 matrix:
   include:
     - compiler: clang
